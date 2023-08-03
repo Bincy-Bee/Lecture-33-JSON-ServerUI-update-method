@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON-Server Form DB in UI</title>
+    <style>
+        #sdb{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+            text-align: center;
+        }
+        #main-div img{
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <input type="url" id="simg" placeholder="URL">
+        <input type="text" id="sname" placeholder="Student's Name">
+        <input type="number" id="idno" placeholder="Student's ID NO.">
+        <input type="email" id="email" placeholder="Student's Email">
+        <input type="text" id="course" placeholder="Student's Course">
+        <input type="submit" id="subform" value="Submit">
+    </form>
+    <hr>
+    <div id="sdb">
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
